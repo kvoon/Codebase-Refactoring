@@ -1,3 +1,6 @@
+## Description
+Project was a refactoring assignment where we were given a codebase with a number of issues as listed below. The goal of the assignment was to fix these issues by appliyng various design patterns or techniques taught during the course. 
+
 ### Coding Style: Google Java Style 
 *Only used in parts of the code that were altered. Original codebase that was left untouched may not follow the selected coding style.*
 
@@ -47,7 +50,7 @@ perhaps you can partially mitigate this with the software somehow?
 
 ### Solved using Lazy load - lazy initialization 
 
-Done in the `clientImpl` class.  
+Done in the `ClientImpl` class.  
 
 ## 5. Issue 5:   
 Because the Report object captures data without any consistent primary key, and
