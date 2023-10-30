@@ -89,4 +89,4 @@ https://www.geeksforgeeks.org/chain-responsibility-design-pattern/
 
 *  *SOFT3202 Tutorial & Homework feedback* - Bridge, Flyweight, Value Object
 
-* I would also like to acknowledge all the useful hints from my peers and the teaching staff on ed. 
+* I would also like to acknowledge all the useful hints from my peers and the teaching staff on our cohort's ed forums (internal student discussion board).  
