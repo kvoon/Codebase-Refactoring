@@ -1,8 +1,8 @@
 ## Description
-Project was a refactoring assignment where we were given a codebase with a number of issues as listed below. The goal of the assignment was to fix these issues by appliyng various design patterns or techniques taught during the course. 
+This project was a refactoring assignment, wherein we were provided with a codebase containing several issues outlined below. The primary objective of the assignment was to address and resolve these issues by applying a variety of design patterns and techniques taught during the course.
 
 ### Coding Style: Google Java Style 
-*Only used in parts of the code that were altered. Original codebase that was left untouched may not follow the selected coding style.*
+*Only used in parts of the code that were altered. The original codebase that was left untouched may not follow the selected coding style.*
 
 # Issues Listed and Suggested Design Patterns
 
@@ -14,23 +14,23 @@ has been included in your module scope to assist with this, but ReportDatabase
 is a fake façade on a remote database that you cannot change.
 
 ### Solved using Fly-weight pattern
-Assumptions made: Assumed that the ram issues was centered around the reports package.
+Assumptions made: Assumed that the RAM issues were centered around the reports package.
 Ram usage was checked when loading the list of reports. 
 
 Done mostly in the `reports` package. 
 
 ## 2. Issue 2:  
 There are several types of accounting service Orders. The current solution for
-these orders is to create a new class for each type (based on work type e.g.audits or day-to-day work, whether the order is for priority client , and whether the
-order is a one off or regularly scheduled work). The full system has 66 * 2 * 2 of
+these orders is to create a new class for each type (based on work type e.g.audits or day-to-day work, whether the order is for priority client, and whether the
+order is a one-off or regularly scheduled work). The full system has 66 * 2 * 2 of
 these classes (264 order classes!), with 8 of these (2*2*2) provided to you as an
 example – CPA would like you to find a way to reduce this class load without
 breaking the existing Order interface.
 
 ### Solved with a Bridge Pattern
 Also incorporated some other patterns such as strategy and factory. 
-Assumptions: it was permissible to not use the OrderScheduled interface. As it was just left alone and 
-not edited or removed. However Order interface was still used. 
+Assumptions: it was permissible to not use the OrderScheduled interface. It was just left alone and 
+not edited or removed. However, Order interface was still used. 
 
 Done in the `ordering` package. 
 
